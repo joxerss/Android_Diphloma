@@ -18,7 +18,6 @@ public class AboutFragment extends Fragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        String s = "hello";
     }
 
     @Nullable
