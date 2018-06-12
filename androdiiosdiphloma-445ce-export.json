@@ -1,0 +1,53 @@
+{
+  "admins" : {
+    "K1CnzirsTWSIlAuchRdu8yYWP033" : "true",
+    "W2cik9DKbMZyZuRlsAIEOBqW3263" : "true",
+    "WjVR3bgesGSgmCaF44PY0TN41SN2" : "true",
+    "xHwIB4FAm1VTHwougNvYJSDynY32" : "false"
+  },
+  "components" : "~",
+  "order_statistic" : {
+    "Visit cards" : {
+      "amount" : 250,
+      "count" : 1000
+    }
+  },
+  "products" : {
+    "Visit cards" : {
+      "description" : "visitCardsDescription",
+      "paper_types" : [ "Картон", "С покрытием", null, "Самоклеющаяся", "С тиснением" ],
+      "price" : 2.5,
+      "types" : [ "euro", "standart" ]
+    }
+  },
+  "users" : {
+    "K1CnzirsTWSIlAuchRdu8yYWP033" : {
+      "company" : "Empire\n",
+      "companyAddress" : "St.12",
+      "displayName" : "Valerii Melnikov",
+      "email" : "tecktonik987@gmail.com",
+      "phone" : "+380714203931",
+      "photoLink" : "https://lh6.googleusercontent.com/-kmQymit52Ds/AAAAAAAAAAI/AAAAAAAAAd4/VG6awBI0Xnc/s96-c/photo.jpg"
+    },
+    "W2cik9DKbMZyZuRlsAIEOBqW3263" : {
+      "company" : "Altair",
+      "companyAddress" : "Sobinova 139",
+      "displayName" : "Artem Syritsa",
+      "email" : "80500451040j@gmail.com",
+      "phone" : "+380500451040",
+      "photoLink" : "https://lh4.googleusercontent.com/-ulaI-y17czY/AAAAAAAAAAI/AAAAAAAAAqU/BQeD1UWmhHQ/s96-c/photo.jpg"
+    },
+    "WjVR3bgesGSgmCaF44PY0TN41SN2" : {
+      "company" : "Altair",
+      "companyAddress" : "Sobinova 139",
+      "displayName" : "Анна Литвиненко",
+      "email" : "anyalit13@gmail.com",
+      "phone" : "+380506255345",
+      "photoLink" : "https://lh3.googleusercontent.com/-mrt1WxfE5dw/AAAAAAAAAAI/AAAAAAAAAAA/AGi4gfyv5XiJRTYA53BBpRhZrpJnfw3aGw/s96-c/photo.jpg"
+    },
+    "xHwIB4FAm1VTHwougNvYJSDynY32" : {
+      "displayName" : "FirebaseUserName",
+      "email" : "80500451040j@gmail.co"
+    }
+  }
+}

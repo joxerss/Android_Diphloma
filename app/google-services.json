@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "300993395681",
+    "firebase_url": "https://androdiiosdiphloma-445ce.firebaseio.com",
+    "project_id": "androdiiosdiphloma-445ce",
+    "storage_bucket": "androdiiosdiphloma-445ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300993395681:android:05aec56513d8056b",
+        "android_client_info": {
+          "package_name": "com.example.artem.android_diphloma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300993395681-g4h2hhse2p8m0dutgb3so280kpjsends.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.artem.android_diphloma",
+            "certificate_hash": "2a84881ff414d7ce62723d3f6ada7ba205dfc342"
+          }
+        },
+        {
+          "client_id": "300993395681-lm2u7kkli8797l1jeb3iv77bv0q82ovm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkFKds0dr21sQhSy5KgF9CYnTVeCHeclU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300993395681-lm2u7kkli8797l1jeb3iv77bv0q82ovm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

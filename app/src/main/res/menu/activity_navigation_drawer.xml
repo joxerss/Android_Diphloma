@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_account_circle_white_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Users" />
+        <item
+            android:id="@+id/nav_products"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Products" />
+        <item
+            android:id="@+id/nav_statistics"
+            android:icon="@android:drawable/stat_notify_sync"
+            android:title="Statistics" />
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="Order" />
+        <item
+            android:id="@+id/nav_orders_history"
+            android:icon="@mipmap/ic_history_black_24dp"
+            android:title="Orders history" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_faq"
+                android:icon="@drawable/faq"
+                android:title="FAQ" />
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="About company" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_transfer_within_a_station_white_24dp"
+                android:title="LogOut" />
+        </menu>
+    </item>
+
+</menu>

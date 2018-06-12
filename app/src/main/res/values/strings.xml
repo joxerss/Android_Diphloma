@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">Android_Diphloma</string>
+
+    <string name="label_google_sign_in">Firebase + Google Sign In</string>
+    <string name="desc_google_sign_in">Use a Google Sign In credential to authenticate with Firebase.</string>
+
+    <string name="label_emailpassword">Email/Password Authentication</string>
+    <string name="desc_emailpassword">Use an email and password to authenticate with Firebase.</string>
+
+    <string name="hint_user_id">User ID</string>
+    <string name="get_custom_token">Get Token</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="loading">Loading…</string>
+    <string name="custom_token">Custom Token</string>
+    <string name="signed_in">Signed In</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="token_null">Token: null</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="start_phone_auth">Start</string>
+    <string name="verify_phone_auth">Verify</string>
+    <string name="resend_phone_auth">Resend</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_verification_code">Verification Code</string>
+    <string name="status_code_sent">Code Sent</string>
+    <string name="status_verification_failed">Verification failed</string>
+    <string name="status_verification_succeeded">Verification succeeded</string>
+    <string name="status_sign_in_failed">Sign-in failed</string>
+    <string name="instant_validation">(instant validation)</string>
+
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="firebase_user_management">Firebase User Management</string>
+
+    <string name="google_status_fmt">Google User: %s</string>
+    <string name="google_title_text">Google Sign In</string>
+
+    <string name="facebook_status_fmt">Facebook User: %s</string>
+    <string name="facebook_title_text">Facebook Login</string>
+
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="emailpassword_title_text">Email and Password</string>
+
+    <string name="phone_title_text">Phone Number</string>
+
+    <string name="twitter_status_fmt">Twitter User: %s</string>
+    <string name="twitter_title_text">Twitter Login</string>
+
+    <string name="firebaseui_status_fmt">Firebase User: %s</string>
+    <string name="firebaseui_title_text">FirebaseUI Auth</string>
+
+    <string name="id_fmt">User ID: %s</string>
+    <string name="email_fmt">Email: %s</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="advertising_agency">Advertising agency</string>
+    <string name="TypesOFPaperText">Coated paper is a high-quality paper used for the production of glossy magazines, presentation catalogs, booklets, business cards and other materials
+        for which the brightness of colors and a pleasing appearance is important. Gives distinct prints and is pleasant to the touch. Offset paper - for printing of illustrative-text
+        editions or visual products by offset method. Optimum in quality and budget. Photo-paper (barite) is a classic paper that gives a better working out of halftones and belongs to the elite class.
+        Newspaper paper is an economy-class paper for newspaper production, brochures of mass production. Kraft paper - paper made from environmentally friendly, recycled materials. Design paper is a kind of paper that has special specific properties.
+        Varied texture, colors, shades and relief. Velvet paper - used for painting and artwork. Kalka, copy - designed for making copies and prints. Printing paper is a printing paper used for high printing. Writing paper - designed for
+        comfortable writing in notebooks, music albums, notebooks. Now it is not used in practice, since coated paper has the same properties.\n\n</string>
+    <string name="PaperSettingsText">"Density - the meaning speaks for itself Define for yourself - thicker or thinner paper is needed If it's a business card, we recommend 250-350 g / m2
+        Paper with a lower density for printing business cards does not fit. If you advertise luxury products - choose more presentable version: thick paper from 150 g / m2 For the best
+        presentation - plain A4 paper usually has a density of 80 g / m2, and newsprint - with a density of 60 g / m2.
+        \n"Relief and texture - smoothness, porosity, matte or glossy finish.
+        \n"Color - black paper and black-and-white paper sealed in black - are very different in appearance. Does it matter? Choose the designer paper with the desired color and shade.
+        \n"Cost is, of course, one of the decisive factors, if the budget is limited, indicate it to the manager." He will choose the best option for you.
+        \n
+    </string>
+    <string name="WhatISCMYKText">CMYK is a color system designed for use mainly in printing.
+        \nThe designation CMYK stands for the names of the main colors used for four-color printing:
+        \n 1."blue (Syan)
+        \n 2."purple (Magenta)
+        \n 3."Yellow.
+        \n"The letter K denotes basically black paint (BlacK), although it was originally assumed that K is" Key color ", any other key color.
+        \nThe formation of CMYK color comes from the numbers that define the color in CMYK, and represents the percentage of the paint of the color that makes up the color combination.
+        \nFor example, to get a bright red color, mix 100% yellow paint, 100% purple paint. This is indicated as follows: (C 0 / M 100 / Y 100 / K 0).
+        \n\n
+    </string>
+    <string name="FourPlusFourText">Everything is very simple. These figures indicate the color (color) of printing products and are deciphered as follows:
+        \nThe following designations are adopted in digital printing: the first digit indicates the number of colors on the front side, the second figure on the back.
+        The color of the paper does not count. Printing in one ink means printing in black ink or any other, including the Pantone scale.
+        \nPrinting from one side
+        \n"1 + 0 - printing from one side to one paint
+        \n"1 + 1 - printing from two sides in one color.
+        \n"4 + 0 - printing on one side in any color solution
+        \nThe number "4" means full-color printing, that is, the use of four CMYK colors - Cyan (blue), Magenta (purple), Yellow (yellow) and Black (black)
+        \n"4 + 1 - printing on one side (full color), on the back - in one ink;
+        \n"4 + 4 - printing from two sides in any color solution;
+    </string>
+    <string name="SizeOfBusinessCardsText">In the US, mostly used 3½ x 2 inches (88.9 x 50.8 mm).
+        \nIn Japan (the format yap yongō) - 91 x 55 mm.
+
+        \nThe most popular sizes of business cards (standard) were created by CIS countries\' printers, which is installed to save paper, used in Russia, Ukraine, Belarus, Kazakhstan and Moldova.
+        \nWaste paper in the production of business cards of this size are minimal. The business card must have dimensions - 90 × 50 mm.
+
+        \nThe international standard ISO 7810 ID-1 sets for the business card and for the credit card the same format 85.6 x 53.98 mm, sometimes 85 x 55 mm. This size corresponds to sections of wallets and wallets.
+        It is the most effective format in advertising, it corresponds to the parameters of sections of wallets and wallets of the most popular and produced models.
+        \n\n
+    </string>
+    <string name="DigitalAndOffsetText">Digital printing provides high speed and flexibility when printing small batches of business cards and booklets, invitations and leaflets, as well as other products of printing.
+        \nWhen it is necessary to print small-circulation products in the shortest possible time - there is no equal operational digital printing.
+        \nIf it is necessary to make one presentation for today\'s business meeting or print business cards, and the plane leaves in 2 hours, or club fliers are needed tonight.
+        \nOffset printing also saves time, but only for large enough runs. Therefore, printing of large print runs of newspapers, magazines, books is produced in an offset way.
+        \nThe ideal quality of printing, reducing the cost of manufactured products with medium and large print runs, printing pantone colors, applying UV varnish, printing on cardboard is all about offset printing.
+        \nOffset printing, as a rule, is used for printing full-color multi-page editions, posters, labels, leaflets, etc. in large editions. Offset printing is deprived of the efficiency of digital printing,
+        but compensates for this by the quality of the print and the cost of the final product.
+        \n\n
+    </string>
+    <string name="HowToPayForAnOrderAndStartProductionText">The basis for starting the production of your order is 100% prepayment of our services.
+        \n"If you are a legal entity, send along with the order details, or send them to our e-mail so that we can bill you;
+        \n"If you are an individual, then the order can be paid in a non-cash way online using bank terminals, credit cards or Internet payment systems.
+        \n"If you become our regular customer, after several orders we will trust each other and you will be able to pay for the goods upon receipt.
+        \n
+    </string>
+    <string name="IsItPossibleToMakeQuickChangesToTheLayoutText">Maybe, but not always. If the layout is not put into operation, it is possible to make corrections for additional payment for the work of our designer.
+        If the seal has already begun, then the question of making corrections is decided individually, depending on the stage of implementation and what exactly needs to be changed. In any case, the manager will be
+        in touch with you during the entire time of order fulfillment and will keep you informed of the events until the moment of his shipment.\n\n</string>
+    <string name="WhatDocumentsAreNeededToProduceAPrintedCopyText">If the same individual receives the circulation, which was indicated in the print job, only an identity document is required. If this legal entity
+        will need another seal of the enterprise. Otherwise, a power of attorney will be required to receive the circulation by a third party. \n\n</string>
+</resources>

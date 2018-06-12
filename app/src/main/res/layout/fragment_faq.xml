@@ -1,0 +1,314 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.artem.android_diphloma.FAQFragment"
+    android:orientation="horizontal"
+    android:background="#0288D1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/expandableButton1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#0288D1"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:gravity="left"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text="1.Types of paper"
+                android:textColor="#fff" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/expandableLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#0288D1"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textexpand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/TypesOFPaperText"
+                    android:textColor="#fff" />
+
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/expandableButton2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#0288D1"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:gravity="left"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text="2.Paper Settings"
+                android:textColor="#fff" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/expandableLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0288D1"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/PaperSettingsText"
+                    android:textColor="#FFFFFF" />
+
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/expandableButton3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#0288D1"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:gravity="left"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text="3.What is CMYK"
+                android:textColor="#fff" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/expandableLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0288D1"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/WhatISCMYKText"
+                    android:textColor="#FFFFFF" />
+
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/expandableButton4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#0288D1"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:gravity="left"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text="4.What does the color '4 + 0', '4 + 4' mean?"
+                android:textColor="#fff" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/expandableLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0288D1"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/FourPlusFourText"
+                    android:textColor="#FFFFFF" />
+
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/expandableButton5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#0288D1"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:gravity="left"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text="5.Size of business cards"
+                android:textColor="#fff" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/expandableLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0288D1"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/SizeOfBusinessCardsText"
+                    android:textColor="#FFFFFF" />
+
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/expandableButton6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#0288D1"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:gravity="left"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text="6.What is the difference between digital and offset printing?"
+                android:textColor="#fff" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/expandableLayout6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0288D1"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/DigitalAndOffsetText"
+                    android:textColor="#FFFFFF" />
+
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/expandableButton7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#0288D1"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:gravity="left"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text="7.How to pay for an order and start production?"
+                android:textColor="#fff" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/expandableLayout7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0288D1"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/HowToPayForAnOrderAndStartProductionText"
+                    android:textColor="#FFFFFF" />
+
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/expandableButton8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#0288D1"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:gravity="left"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text="8.Is it possible to make quick changes to the layout?"
+                android:textColor="#fff" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/expandableLayout8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0288D1"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/IsItPossibleToMakeQuickChangesToTheLayoutText"
+                    android:textColor="#FFFFFF" />
+
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/expandableButton9"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#0288D1"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:gravity="left"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="9.What documents are needed to produce a printed copy?"
+                android:textColor="#fff" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/expandableLayout9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0288D1"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/WhatDocumentsAreNeededToProduceAPrintedCopyText"
+                    android:textColor="#FFFFFF" />
+
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+
+
