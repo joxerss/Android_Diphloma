@@ -3,8 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Android_Diphloma.iml" filepath="$PROJECT_DIR$/Android_Diphloma.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android_Diphloma.iml" filepath="$PROJECT_DIR$/Android_Diphloma.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/libraries/libraries.iml" filepath="$PROJECT_DIR$/libraries/libraries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/libraries.iml" filepath="$PROJECT_DIR$/libraries/libraries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/libraryColorPicker/libraryColorPicker.iml" filepath="$PROJECT_DIR$/libraries/libraryColorPicker/libraryColorPicker.iml" />
       <module fileurl="file://$PROJECT_DIR$/libraries/libraryColorPicker/libraryColorPicker.iml" filepath="$PROJECT_DIR$/libraries/libraryColorPicker/libraryColorPicker.iml" />
     </modules>
   </component>
